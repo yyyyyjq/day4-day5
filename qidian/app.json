@@ -1,0 +1,19 @@
+{
+  "pages":[
+        "pages/topics/topics",
+        "pages/detail/detail",
+        "pages/login/login",
+        "pages/hot/hot",
+        "pages/rank/rank",
+        "pages/classify/classify",
+        "pages/my/my"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "起点",
+    "navigationBarTextStyle":"black"
+  }
+  
+}

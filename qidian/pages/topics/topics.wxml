@@ -1,0 +1,25 @@
+<view class = "topbar">
+<block wx:for = "{{navList}}" wx:key = "">
+  <view class="container">
+    <view class = "hot" bindtap = "gotohot">
+        <text>热门</text>
+    </view>
+    <view class = "classify" bindtap = "gotoclassify">
+        <text>分类</text>
+    </view>
+    <view class = "rank" bindtap = "gotorank">
+        <text>排行</text>
+    </view>
+    <view class = "my" bindtap = "gotomy">
+        <text>我的</text>
+    </view>
+  </view>
+</block>
+</view>
+<view class="zhuye">
+<block wx:for = "{{image}}" wx:key="{{}}">
+  <view class="rank-img">
+    <image style = "width:80px; height: 100px;" class="image1" src="{{item.img}}" mode="aspectFill"></image>
+  </view>
+</block>
+</view>

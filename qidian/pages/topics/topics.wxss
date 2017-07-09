@@ -1,0 +1,27 @@
+.topics{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container{
+    height: 72rpx;
+    line-height: 72rpx;
+    background: #eee;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index:1;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.rank-img{
+    display: flex;
+    position:relative;
+    padding: 10rpx;
+    flex-direction: column;
+}
+.topbar{
+  height: 72rpx;
+  width: 100%;
+}
